@@ -1,0 +1,18 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"BracketHighlighter",
+		"Case Conversion",
+		"Color Highlighter",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"HTML5",
+		"Inc-Dec-Value",
+		"jQuery",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter"
+	]
+}
