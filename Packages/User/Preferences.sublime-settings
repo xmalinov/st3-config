@@ -1,6 +1,7 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/User/Flatland Monokai (SL).tmTheme",
 	"draw_white_space": "all",
+	"flatland_square_tabs": true,
 	"font_face": "Droid Sans Mono Slashed",
 	"font_options":
 	[
@@ -20,6 +21,7 @@
 		80
 	],
 	"tab_size": 2,
+	"theme": "Flatland Dark.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false

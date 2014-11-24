@@ -10,23 +10,6 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_2D8E66FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#2D8E66FF</string>
-<key>caret</key>
-<string>#71D1AAFF</string>
-<key>foreground</key>
-<string>#71D1AAFF</string>
-</dict>
-</dict>
-
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
 <string>mcol_FFFFFFFF</string>
 <key>settings</key>
 <dict>
@@ -44,32 +27,15 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_006F3CFF</string>
+<string>mcol_000000FF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#006F3CFF</string>
+<string>#000000FF</string>
 <key>caret</key>
-<string>#90FECBFF</string>
+<string>#FFFFFFFF</string>
 <key>foreground</key>
-<string>#90FECBFF</string>
-</dict>
-</dict>
-
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_B3D78BFF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#B3D78BFF</string>
-<key>caret</key>
-<string>#4F7428FF</string>
-<key>foreground</key>
-<string>#4F7428FF</string>
+<string>#FFFFFFFF</string>
 </dict>
 </dict>
 
@@ -470,16 +436,6 @@
             </dict>
         </dict><dict>
             <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Error</string>
             <key>scope</key>
             <string>sublimelinter.mark.error</string>
@@ -487,6 +443,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
             </dict>
         </dict></array>
 	<key>uuid</key>
