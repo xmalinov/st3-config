@@ -23,6 +23,7 @@
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
+		"Terminal",
 		"Theme - Flatland"
 	]
 }
