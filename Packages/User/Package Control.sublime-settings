@@ -26,6 +26,7 @@
 		"JS Snippets",
 		"LESS",
 		"Markdown Preview",
+		"Schemr",
 		"Seti_UI",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
@@ -35,6 +36,7 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"Terminal",
-		"Theme - Flatland"
+		"Theme - Flatland",
+		"Themr"
 	]
 }

@@ -6,7 +6,128 @@
         <string>Seti_Mod</string>
         <key>settings</key>
         <array>
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_FFFFFFFF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#FFFFFFFF</string>
+<key>caret</key>
+<string>#000000FF</string>
+<key>foreground</key>
+<string>#000000FF</string>
+</dict>
+</dict>
 
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_33713DFF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#33713DFF</string>
+<key>caret</key>
+<string>#8DCC97FF</string>
+<key>foreground</key>
+<string>#8DCC97FF</string>
+</dict>
+</dict>
+
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_000000FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#000000FF</string>
+<key>caret</key>
+<string>#FFFFFFFF</string>
+<key>foreground</key>
+<string>#FFFFFFFF</string>
+</dict>
+</dict>
+
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_58595BFF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#58595BFF</string>
+<key>caret</key>
+<string>#A4A5A7FF</string>
+<key>foreground</key>
+<string>#A4A5A7FF</string>
+</dict>
+</dict>
+
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_F89C1EFF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#F89C1EFF</string>
+<key>caret</key>
+<string>#4A2B02FF</string>
+<key>foreground</key>
+<string>#4A2B02FF</string>
+</dict>
+</dict>
+
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_78B84CFF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#78B84CFF</string>
+<key>caret</key>
+<string>#233615FF</string>
+<key>foreground</key>
+<string>#233615FF</string>
+</dict>
+</dict>
+
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_231F20FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#231F20FF</string>
+<key>caret</key>
+<string>#E0DCDDFF</string>
+<key>foreground</key>
+<string>#E0DCDDFF</string>
+</dict>
+</dict>
+
+
+<!-- ====================================
+General
+====================================== -->
             <dict>
                 <key>settings</key>
                 <dict>
@@ -66,7 +187,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Comment
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>comment</string>
@@ -77,7 +200,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+String
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>string</string>
@@ -168,7 +293,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Number
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>constant.numeric</string>
@@ -180,7 +307,9 @@
             </dict>
 
 
-
+<!-- ====================================
+Includes
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>meta.use, support.other.namespace</string>
@@ -191,7 +320,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Constant
+====================================== -->
             <dict>
                 <key>name</key>
                 <string>Constant</string>
@@ -204,7 +335,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Storage
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>storage</string>
@@ -240,7 +373,9 @@
             </dict>
 
 
-
+<!-- ====================================
+Function Name
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>entity.name.function</string>
@@ -265,7 +400,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Dictionary
+====================================== -->
             <dict>
                 <key>name</key>
                 <string>Dict key</string>
@@ -291,7 +428,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Function
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>meta.function-call</string>
@@ -396,7 +535,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+External Symbol
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>variable.other.external-symbol</string>
@@ -407,7 +548,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Variable
+====================================== -->
             <dict>
                 <key>name</key>
                 <string>Variable</string>
@@ -468,7 +611,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Variable Assignment
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>variable.parameter, variable.assignment</string>
@@ -489,7 +634,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Keyword
+====================================== -->
             <dict>
                 <key>name</key>
                 <string>Keyword</string>
@@ -534,7 +681,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Structure Name
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>entity.name.structure</string>
@@ -545,7 +694,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Type Name
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>entity.name.type</string>
@@ -556,7 +707,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Class Name
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>meta.class, entity.name.class, entity.name.type.class</string>
@@ -567,7 +720,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Invalid
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>invalid</string>
@@ -592,7 +747,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+String Embedded-source
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>string source</string>
@@ -603,7 +760,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Tag Name
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>meta.tag.inline.any.html entity.name.tag.inline.any.html</string>
@@ -634,7 +793,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Html
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>meta.tag.structure.any.html entity.name.tag.structure.any.html</string>
@@ -645,7 +806,7 @@
                 </dict>
             </dict>
 
-            
+            <!-- string -->
             <dict>
                 <key>scope</key>
                 <string>meta.tag.other.html meta.attribute-with-value.id.html string.quoted.double.html meta.toc-list.id.html, meta.tag.block.any.html string.quoted.double.html, meta.tag.inline.any.html string.quoted.double.html, meta.tag.other.html string.quoted.double.html </string>
@@ -656,7 +817,7 @@
                 </dict>
             </dict>
 
-            
+            <!-- "" -->
             <dict>
                 <key>scope</key>
                 <string>meta.tag.other.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.other.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.block.any.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.block.any.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.inline.any.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.inline.any.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.any.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.any.html string.quoted.double.html punctuation.definition.string.end.html</string>
@@ -667,7 +828,7 @@
                 </dict>
             </dict>
 
-            
+            <!-- = -->
             <dict>
                 <key>scope</key>
                 <string>meta.tag.other.html meta.attribute-with-value.id.html punctuation.separator.key-value.html, meta.tag.block.any.html, meta.tag.inline.any.html, meta.tag.other.html, meta.tag.any.html</string>
@@ -794,7 +955,7 @@
 
             <dict>
                 <key>name</key>
-                <string>Doctype/XML Processing</string>
+                <string>Doctype&#x2f;XML Processing</string>
                 <key>scope</key>
                 <string>meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype</string>
                 <key>settings</key>
@@ -896,7 +1057,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Css
+====================================== -->
             <dict>
                 <key>name</key>
                 <string>css.string</string>
@@ -1175,7 +1338,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Less
+====================================== -->
             <dict>
                 <key>name</key>
                 <string>LESS variables</string>
@@ -1212,7 +1377,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Sass/scss
+====================================== -->
             <dict>
                 <key>name</key>
                 <string>SASS: Block comment</string>
@@ -1297,7 +1464,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Js
+====================================== -->
             <dict>
                 <key>name</key>
                 <string>Property - JavaScriptNext</string>
@@ -1372,7 +1541,7 @@
                 </dict>
             </dict>
 
-            
+            <!-- ; -->
             <dict>
                 <key>name</key>
                 <string>punctuation.terminator.statement.js</string>
@@ -1384,7 +1553,7 @@
                     <string>#858d8a</string>
                 </dict>
             </dict>
-            
+            <!-- (function) -->
             <dict>
                 <key>scope</key>
                 <string>punctuation.definition.parameters, variable.parameter.function.js punctuation.separator.object</string>
@@ -1395,7 +1564,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Js In Html Embedded
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>source.js.embedded.html string.quoted.single.js, source.js.embedded.html string.quoted.single.js punctuation.definition.string.begin.js, source.js.embedded.html string.quoted.single.js punctuation.definition.string.end.js</string>
@@ -1446,7 +1617,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+MarkDown
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>meta.block-level.markdown markup.heading.markdown punctuation.definition.heading.markdown, meta.block-level.markdown markup.heading.markdown entity.name.section.markdown</string>
@@ -1497,7 +1670,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+Find In Files
+====================================== -->
             <dict>
                 <key>scope</key>
                 <string>text.find-in-files</string>
@@ -1532,7 +1707,9 @@
                 </dict>
             </dict>
 
-
+<!-- ====================================
+diff
+====================================== -->
         <dict>
             <key>name</key>
             <string>main</string>
@@ -1606,7 +1783,9 @@
                 <string>#A074C4</string>
             </dict>
         </dict>
-
+<!-- ====================================
+Gitgutter colors
+====================================== -->
             <dict>
               <key>name</key>
               <string>GitGutter deleted</string>
@@ -1662,8 +1841,10 @@
                 <string>#565656</string>
               </dict>
             </dict>
-
-            
+<!-- ====================================
+Other
+====================================== -->
+            <!-- {...} -->
             <dict>
                 <key>name</key>
                 <string>Punctuation / Delimitation / Separation </string>
@@ -1676,7 +1857,7 @@
                 </dict>
             </dict>
 
-            
+            <!-- (...) -->
             <dict>
                 <key>name</key>
                 <string>Round braces</string>
@@ -1689,7 +1870,7 @@
                 </dict>
             </dict>
 
-            
+            <!-- [...] -->
             <dict>
                 <key>name</key>
                 <string>Array Punctuation</string>
@@ -1702,7 +1883,7 @@
                 </dict>
             </dict>
 
-            
+            <!-- '...' -->
             <dict>
                 <key>name</key>
                 <string>~ String Punctuation</string>
@@ -1715,7 +1896,7 @@
                 </dict>
             </dict>
 
-            
+            <!-- , -->
             <dict>
                 <key>name</key>
                 <string>meta.delimiter</string>
@@ -1730,7 +1911,7 @@
                 </dict>
             </dict>
 
-            
+            <!-- ; -->
              <dict>
                 <key>name</key>
                 <string>punctuation.terminator</string>
@@ -1745,7 +1926,7 @@
                 </dict>
             </dict>
 
-            
+            <!-- . -->
              <dict>
                 <key>name</key>
                 <string>meta.delimiter.method.period</string>
@@ -1760,37 +1941,7 @@
                 </dict>
             </dict>
 
-        <dict>
-            <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#DDB700</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Error</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D02000</string>
-            </dict>
-        </dict></array>
+        </array>
         <key>semanticClass</key>
         <string>Seti</string>
         <key>author</key>
