@@ -77,7 +77,7 @@ Comment
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#41535b</string>
+                    <string>#4a5f68</string>
                 </dict>
             </dict>
 
@@ -935,6 +935,17 @@ Html
                 <dict>
                     <key>foreground</key>
                     <string>#5eebb8</string>
+                </dict>
+            </dict>
+
+            <!-- , / () / {} -->
+            <dict>
+                <key>scope</key>
+                <string>source.php.embedded.block.html, punctuation.definition.array.begin.php, punctuation.definition.array.end.php, punctuation.definition.parameters.begin.php, punctuation.definition.parameters.end.php</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#d4d7d6</string>
                 </dict>
             </dict>
 
