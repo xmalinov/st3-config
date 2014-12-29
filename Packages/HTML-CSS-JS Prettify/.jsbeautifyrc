@@ -14,7 +14,7 @@
     "indent_handlebars": false, // e.g. {{#foo}}, {{/foo}}
     "indent_inner_html": false, // Indent <head> and <body> sections
     "indent_scripts": "keep", // [keep|separate|normal]
-    "indent_size": 4, // Indentation size
+    "indent_size": 2, // Indentation size
     "max_preserve_newlines": 10, // Maximum number of line-breaks to be preserved in one chunk
     "preserve_newlines": true, // Preserve existing line-breaks
     "unformatted": ["a", "span", "img", "code", "pre", "sub", "sup", "em", "strong", "b", "i", "u", "strike", "big","small", "pre", "h1", "h2", "h3", "h4", "h5", "h6"], // List of tags that should not be reformatted
@@ -24,7 +24,7 @@
     "allowed_file_extensions": ["css", "scss", "sass", "less"],
     "end_with_newline": false, // End output with newline
     "indent_char": " ", // Indentation character
-    "indent_size": 4, // Indentation size
+    "indent_size": 2, // Indentation size
     "selector_separator": " ",
     "selector_separator_newline": false // Add a newline between multiple selectors
   },
@@ -37,7 +37,7 @@
     "eval_code": false,
     "indent_char": " ", // Indentation character
     "indent_level": 0, // Initial indentation level
-    "indent_size": 4, // Indentation size
+    "indent_size": 2, // Indentation size
     "indent_with_tabs": false, // Indent with tabs, overrides `indent_size` and `indent_char`
     "jslint_happy": false, // Enable jslint-stricter mode
     "keep_array_indentation": false, // Preserve array indentation
